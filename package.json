@@ -1,0 +1,25 @@
+{
+  "name": "week07_nodejs_p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch":"node-sass src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.20",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
