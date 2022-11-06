@@ -5,7 +5,7 @@
                 Calculator
             </div>
         </div>
-        <form method="get" action="/calculator">
+        <form method="POST" action="/">
             <div class="col-sm-4 mb-4 mx-auto offset-4">
                 <input type="text" name="x" class="form-control" placeholder="x" aria-label="x">
             </div>
@@ -23,8 +23,7 @@
                 </select>
             </div>
             <button type="submit" class="btn btn-primary col-2 offset-6 mb-4">Caculate</button>
-            <div class="alert alert-success col-2 offset-6 text-center " role="alert">
-            </div>
+            <div id="Result" class="alert alert-success col-2 offset-6 text-center " role="alert">{{Result}}</div>
         </form>
     </div>
     <script>
